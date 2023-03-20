@@ -139,6 +139,7 @@ color: #404bbf;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--head-color);
+        margin-bottom: 8px;
        
 
 }
@@ -170,6 +171,7 @@ color: #404bbf;
     display: inline-block;
     padding: 16px 32px;
     min-width: 169px;
+    border-radius: 4px;
 }
 
 /* section paddings */
@@ -214,6 +216,7 @@ color: #404bbf;
     color: var(--button-text-color);
     background-color: var(--bg-color);
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .list-button:hover,
