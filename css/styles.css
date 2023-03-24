@@ -78,7 +78,8 @@ color: #f4f4fd;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--head-color);
-        padding: 24px 0;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .nav-text:hover,
@@ -100,9 +101,6 @@ color: #404bbf;
 }
 
 /* bg styles */
-.hero-bg {
-  background-color: var(--head-color);
-}
 
 .section-bg {
   background-color: #F4F4FD;
@@ -110,10 +108,6 @@ color: #404bbf;
 
 .list-bg {
   background-color: #FFFFFF;
-}
-
-.footer-bg {
-  background-color: var(--head-color);
 }
 
 /* h1-h3 styles */
@@ -161,8 +155,11 @@ color: #404bbf;
 
 .footer-text {
     color: var(--bg-color);
-    width: 264px;
     margin-top: 16px;
+}
+
+.footer-container {
+  width: 264px;
 }
 
 
@@ -208,7 +205,8 @@ img {
 }
 
 .team-list-wrap {
-  padding: 32px 16px;
+  padding: 32px 0;
+  text-align: center;
 }
 
 .team-list {
@@ -224,25 +222,17 @@ img {
 }
 
 .portfolio-list-wrap {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 0 32px 16px;
   background: #FFFFFF;
   
   /* Встановить стилі правої рамки */
-  border-right-width: 1px;
-    border-right-style: solid;
-    border-right-color: #E7E9FC;
+  border-right: 1px solid #E7E9FC;
   
     /* Встановить стилі нижньої рамки */
-    border-bottom-width: 1px;
-      border-bottom-style: solid;
-      border-bottom-color: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
    
     /* Встановить стилі лівої рамки */
-    border-left-width: 1px;
-      border-left-style: solid;
-      border-left-color: #E7E9FC;
+    border-left: 1px solid #E7E9FC;
 }
 
 .portfolio-list {
@@ -272,6 +262,7 @@ img {
 .hero-section {
   padding-top: 188px;
   padding-bottom: 188px;
+  background-color: var(--head-color);
 }
 
 .section {
@@ -282,6 +273,7 @@ img {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: var(--head-color);
 }
 
 .no-top-padding {
@@ -289,6 +281,7 @@ img {
 }
 
 .portfolio {
+  padding-top: 72px;
   padding-bottom: 120px;
 }
 
@@ -296,13 +289,14 @@ img {
 /* hero button order service */
 .hero-button {
   display: block;
-    padding: 16px 32px;
-    min-width: 169px;
-    border-radius: 4px;
-    margin: 0 auto;
+  padding: 16px 32px;
+  min-width: 169px;
+  border-radius: 4px;
+  margin: 0 auto;
 
   color: var(--hero-header-color);
   background-color: var(--button-text-color);
+  border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -343,7 +337,7 @@ background-color: var(--active-button-bg);
 .portfolio-buttons {
   display: flex;
   gap: 24px;
-  padding: 96px 0 72px;
+  margin-bottom: 72px;
   justify-content: center;
   }
 
@@ -352,10 +346,8 @@ background-color: var(--active-button-bg);
   width: 1128px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   /* outline: 2px solid tomato; */
 }
-
-
-
 
